@@ -8,7 +8,7 @@ Create new repository and push it to GitHub.
 2. Select "New Repository" 
 3. Give the repository a name \<repository-name\>
 
-From a terminal execute the following:
+From a terminal execute:
 
 ```bash
 mkdir <name-of-project>
