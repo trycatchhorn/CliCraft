@@ -4,11 +4,9 @@ Handy commands when working from command line.
 # Git/GitHub
 Create new repository and push it to GitHub.
 
-Log into GitHub
-
-Select "New Repository"
-
-Give the repository a name
+1. Log into GitHub
+2. Select "New Repository"
+3. Give the repository a name
 
 From a terminal execute the following:
 
