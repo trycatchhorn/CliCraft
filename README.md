@@ -2,11 +2,16 @@
 Handy commands when working from command line.
 
 # Git/GitHub
-Create new repository and push it to GitHub
+Create new repository and push it to GitHub.
 
 Log into GitHub
+
 Select "New Repository"
-Specify <name-of-repository>
+
+Give the repository a name
+
+From a terminal execute the following:
+
 ```bash
 mkdir <name-of-project>
 cd <name-of-project>
