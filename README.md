@@ -37,7 +37,7 @@ find . -type f \( -name '*.js' -o -name '*.htm' -o -name '*.html' -o -name '*.ej
 ```
 
 # Rsync
-Using rsync to copy content from <source-dir> to <target-dir>, exluding a specific directory and a specific file.
+Using rsync to copy content from \<source-dir\> to \<target-dir\>, exluding a specific directory and a specific file.
 
 ```bash
 rsync -avR --exclude={'source-dir/exclude-dir','source-dir/exclude-file} source-dir target-dir
