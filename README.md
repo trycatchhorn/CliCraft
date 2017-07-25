@@ -35,3 +35,12 @@ Traverse current directory looking in multiple file types for a string "needle".
 ```bash
 find . -type f \( -name '*.js' -o -name '*.htm' -o -name '*.html' -o -name '*.ejs' -o -name '*.json' \) -exec grep -Hine "needle" {} \;
 ```
+
+# Rsync
+Using rsync to copy content from <source-dir> to <target-dir>, exluding a specific directory and a specific file.
+
+```bash
+rsync -avR --exclude={'source-dir/exclude-dir','source-dir/exclude-file} source-dir target-dir
+```
+
+
