@@ -42,5 +42,13 @@ Using rsync to copy content from \<source-dir\> to \<target-dir\>, exluding a sp
 ```bash
 rsync -avR --exclude={'source-dir/exclude-dir','source-dir/exclude-file} source-dir target-dir
 ```
+# ssh keys
+Retrieve your SSH RSA fingerprint. NOTE: `-l` "lists" instead of creating a new key, -f means "filename".
+
+```bash
+ssh-keygen -lf ~/.ssh/id_rsa.pub 
+```
+
+
 
 
